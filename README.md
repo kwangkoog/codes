@@ -4,5 +4,5 @@ kwang repository는 data analysis 및 artificial intelligence (ML/DL)에 대한 
 
 
 # References
-1. 데이터 분석하는 문과생 싸코, https://sacko.tistory.com/10?category=632408 ; 딥러닝 이론을 이해가 쉽게 
+1. 데이터 분석하는 문과생 싸코, https://sacko.tistory.com/10?category=632408 ; 딥러닝 이론을 이해가 쉽게 정리
 2. 
