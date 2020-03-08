@@ -1,3 +1,21 @@
 1. 퍼셉트론
 
-![lecture-29-convolutional-neural-networks-computer-vision-spring2015-9-638](https://user-images.githubusercontent.com/61933692/76172414-e588cf00-61d8-11ea-9efc-e18f9162be9f.jpg)
+
+forward propagation
+1. 신경망 구성 => 입력층, 은닉층, 출력층 구성 (은닉층 activation 함수 설정, 출력층 풀고자 하는 문제 타입에 따라 함수 설정)
+2. W(wegiht), B(bias) 텐서 초기화
+3. 입력 X에 대한 출력 Y 계산
+4. mean square error or Cross-entropy error 계산 (cost function)
+5. W에 대한 편미분 수행
+6. 하강 경사법에 기반한 W값 업데이트 (learning rate에 따른 조정 수행)
+7. 3~6번 반복 수행
+
+forward 경우 input에서 output으로 갈 때, 하강 경사법을 사용함
+하강경사법은 계산량이 많음
+
+backward propagation
+forward propagation 신경망 학습에 대한 편미분 계산에 대한 개선 기여
+=> output을 input 방향으로 error를 보내 가중치를 업데이트하는 방법
+=> 시그모이드, 소프트맥스 등 여러가지 활성화 함수에 대해 back propagation이 기여하는 error에 대한 가중치가 정해짐
+
+
