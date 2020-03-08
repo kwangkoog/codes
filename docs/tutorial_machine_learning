@@ -2,5 +2,8 @@ kaggle : introduction of machine learning
 
 * machine learning project
 step 1: to familiarize yourself with the data
+  use pandas library for manipulating and exploring data
+  dataframe holds the type of data you might think of as a table (ex. like excel)
+  use "describe" to analyze your dataframe
 
 
