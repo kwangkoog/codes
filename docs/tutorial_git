@@ -1,0 +1,17 @@
+# Git 기본
+
+1. Git functions
+   1) 소스 병합 (merge)
+   2) 소스 리비전 관리 (reset, commit, branch)
+   3) 소스 릴리즈 (push)
+   4) 소스 태깅 (tag)
+   5) 소스 변경사항 검토 (diff, log)
+
+2. Configurations
+   1) config local repository 
+      $ git config --global user.name "kwangkoog"
+      $ git config --global user.email "kwangkooglee@gmail.com"
+      $ git clone
+   2) add remote repository from local repository
+      $ git remote add origin https://github.com/kwangkoog/tutorial.git
+   3) 
